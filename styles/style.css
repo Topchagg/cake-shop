@@ -380,14 +380,15 @@ li {
 
 .info__input {
     margin-top: var( --one-more-margin-);
-    height: 15px;
+    height: 20px;
     border: 0px;
     border-bottom: solid .5px #cacaca;
     background: inherit;
     color:  var(--primary-text-color);
     outline:none;
     width: 100%;
-    color: black;
+    color: var(--primary-text-color);
+    font-size: var(--fs-m);
 }
 
 .attach__btn {
@@ -423,7 +424,7 @@ li {
 
 .send__aplication__btn {
     width: 400px;
-    border: solid .5px black;
+    border: solid .5px var( --third-text-color);
     background: inherit;
     height: 60px;
     margin-top: var(--margin-xxl);
@@ -446,6 +447,8 @@ li {
     display: flex;
     justify-content: space-between;
 }
+
+
 
 .social-media-list {
     display: flex;
@@ -471,9 +474,11 @@ li {
     flex-direction: column;
 }
 
-.info-nav-menu-title {
-    font-size: var(--fs-m);
+.footer-title {
+    color: var(--third-text-color);
+    font-size: var(--margin-s);
 }
+
 
 .nav-link-footer {
     margin-top: var(--margin-m);
@@ -483,16 +488,6 @@ li {
 
 .nav-link-footer:first-child {
     margin-top: var(--margin-l);
-}
-
-.adress-number {
-   color: var(--primary-text-color);
-}
-
-
-
-.adress-title {
-    font-size: var( --fs-m);
 }
 
 .text-get-in {
@@ -520,6 +515,7 @@ li {
     border-bottom: 1px solid var(--bottom-border-color);
     outline:none;
     width: 220px;
+    color: var(--primary-text-color);
 }
 
 .privacy-footer {
@@ -544,5 +540,6 @@ li {
 
 .rigths-reserved {
     margin-top: var( --margin-m);
-    color: #777777;
+    color: var(--primary-text-color);
 }
+
